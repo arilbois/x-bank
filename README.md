@@ -7,7 +7,7 @@ API protected by JWT auth.
 
 ## Stack
 
-- Go 1.22
+- Go 1.25.5
 - Gin (`github.com/gin-gonic/gin`)
 - GORM + PostgreSQL driver
 - Colly (HTML scraping)
