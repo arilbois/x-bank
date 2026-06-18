@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
-	"github.com/arilbois/contentbank-v2/internal/services/ai"
+	"github.com/arilbois/x-bank/internal/models"
+	"github.com/arilbois/x-bank/internal/services/ai"
 )
 
 func TestAI_BuildPrompt_OnlyTitleAndExcerpt(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
+	"github.com/arilbois/x-bank/internal/models"
 )
 
 // UserRepository handles persistence for User entities.

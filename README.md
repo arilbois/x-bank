@@ -1,6 +1,6 @@
-# ContentBank v2
+# x-bank
 
-Modular-monolith Go backend for the ContentBank product line. Aggregates
+Modular-monolith Go backend for the x-bank platform. Aggregates
 articles from three content categories (`sambatWarga`, `persibWay`,
 `bytmod`), scores them, persists to PostgreSQL, and exposes a JSON HTTP
 API protected by JWT auth.

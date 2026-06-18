@@ -3,9 +3,9 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/arilbois/contentbank-v2/internal/handlers"
-	"github.com/arilbois/contentbank-v2/internal/middleware"
-	"github.com/arilbois/contentbank-v2/internal/services/auth"
+	"github.com/arilbois/x-bank/internal/handlers"
+	"github.com/arilbois/x-bank/internal/middleware"
+	"github.com/arilbois/x-bank/internal/services/auth"
 )
 
 // Deps bundles every dependency the router needs.
@@ -26,7 +26,7 @@ func New(d Deps) *gin.Engine {
 
 	// Public.
 	r.GET("/health", func(c *gin.Context) {
-		c.JSON(200, gin.H{"status": "ok", "service": "contentbank-v2"})
+		c.JSON(200, gin.H{"status": "ok", "service": "x-bank"})
 	})
 	r.POST("/auth/login", d.AuthHandler.Login)
 

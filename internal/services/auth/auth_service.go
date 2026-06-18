@@ -9,8 +9,8 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
-	"github.com/arilbois/contentbank-v2/internal/repositories"
+	"github.com/arilbois/x-bank/internal/models"
+	"github.com/arilbois/x-bank/internal/repositories"
 )
 
 // Common errors.
@@ -119,7 +119,7 @@ func (s *Service) GenerateToken(u *models.User) (string, error) {
 			Subject:   u.ID.String(),
 			IssuedAt:  jwt.NewNumericDate(now),
 			ExpiresAt: jwt.NewNumericDate(now.Add(s.tokenTTL)),
-			Issuer:    "contentbank-v2",
+			Issuer:    "x-bank",
 		},
 	}
 	tok := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
