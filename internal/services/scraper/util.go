@@ -12,7 +12,7 @@ import (
 
 // BaseURL helpers & a Colly builder shared by all scrapers.
 const (
-	userAgent = "Mozilla/5.0 (compatible; ContentBankBot/2.0; +https://github.com/arilbois/contentbank-v2)"
+	userAgent = "Mozilla/5.0 (compatible; ContentBankBot/2.0; +https://github.com/arilbois/x-bank)"
 )
 
 func newCollector() *colly.Collector {

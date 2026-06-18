@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/arilbois/contentbank-v2/internal/repositories"
-	"github.com/arilbois/contentbank-v2/internal/services/ai"
+	"github.com/arilbois/x-bank/internal/repositories"
+	"github.com/arilbois/x-bank/internal/services/ai"
 )
 
 type AnalysisHandler struct {

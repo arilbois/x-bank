@@ -1,4 +1,4 @@
-module github.com/arilbois/contentbank-v2
+module github.com/arilbois/x-bank
 
 go 1.25.0
 

@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/arilbois/contentbank-v2/internal/services/scraper"
+	"github.com/arilbois/x-bank/internal/services/scraper"
 )
 
 type ScrapeHandler struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/robfig/cron/v3"
 
-	"github.com/arilbois/contentbank-v2/internal/services/scraper"
+	"github.com/arilbois/x-bank/internal/services/scraper"
 )
 
 // Scheduler runs scrape jobs on a cron schedule.

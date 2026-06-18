@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
-	"github.com/arilbois/contentbank-v2/internal/services/auth"
+	"github.com/arilbois/x-bank/internal/models"
+	"github.com/arilbois/x-bank/internal/services/auth"
 )
 
 func TestAuth_HashAndCheckPassword(t *testing.T) {

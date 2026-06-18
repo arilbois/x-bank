@@ -10,8 +10,8 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/arilbois/contentbank-v2/internal/config"
-	"github.com/arilbois/contentbank-v2/internal/models"
+	"github.com/arilbois/x-bank/internal/config"
+	"github.com/arilbois/x-bank/internal/models"
 )
 
 // Connect opens a GORM connection, runs AutoMigrate for all known models,
