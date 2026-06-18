@@ -49,7 +49,7 @@ export function AppShell({ children }: AppShellProps) {
             <Database className="h-4 w-4" />
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold">ContentBank</span>
+            <span className="text-sm font-semibold">x-bank</span>
             <span className="text-[10px] text-zinc-500 font-mono">v2 · go</span>
           </div>
         </div>

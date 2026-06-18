@@ -4,7 +4,7 @@ const BASE_URL =
   (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "/api";
 
 export const TOKEN_KEY = "contentbank_token";
-export const USER_KEY = "contentbank_user";
+export const USER_KEY = "xbank_user";
 
 export function getToken(): string | null {
   try {

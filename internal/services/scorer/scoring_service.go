@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
+	"github.com/arilbois/x-bank/internal/models"
 )
 
 // Keyword maps per source category. Used by the keyword_match factor.

@@ -13,15 +13,15 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/arilbois/contentbank-v2/internal/config"
-	"github.com/arilbois/contentbank-v2/internal/database"
-	"github.com/arilbois/contentbank-v2/internal/handlers"
-	"github.com/arilbois/contentbank-v2/internal/repositories"
-	"github.com/arilbois/contentbank-v2/internal/routes"
-	"github.com/arilbois/contentbank-v2/internal/scheduler"
-	"github.com/arilbois/contentbank-v2/internal/services/ai"
-	"github.com/arilbois/contentbank-v2/internal/services/auth"
-	"github.com/arilbois/contentbank-v2/internal/services/scraper"
+	"github.com/arilbois/x-bank/internal/config"
+	"github.com/arilbois/x-bank/internal/database"
+	"github.com/arilbois/x-bank/internal/handlers"
+	"github.com/arilbois/x-bank/internal/repositories"
+	"github.com/arilbois/x-bank/internal/routes"
+	"github.com/arilbois/x-bank/internal/scheduler"
+	"github.com/arilbois/x-bank/internal/services/ai"
+	"github.com/arilbois/x-bank/internal/services/auth"
+	"github.com/arilbois/x-bank/internal/services/scraper"
 )
 
 func main() {

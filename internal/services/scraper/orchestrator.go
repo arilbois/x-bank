@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
-	"github.com/arilbois/contentbank-v2/internal/repositories"
-	scorersvc "github.com/arilbois/contentbank-v2/internal/services/scorer"
+	"github.com/arilbois/x-bank/internal/models"
+	"github.com/arilbois/x-bank/internal/repositories"
+	scorersvc "github.com/arilbois/x-bank/internal/services/scorer"
 )
 
 // Orchestrator runs every registered scraper, deduplicates by content

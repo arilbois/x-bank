@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/arilbois/contentbank-v2/internal/services/auth"
+	"github.com/arilbois/x-bank/internal/services/auth"
 )
 
 // UserContextKey is the gin context key holding the authenticated claims.

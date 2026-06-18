@@ -48,7 +48,7 @@ function LoginPage() {
             <Database className="h-6 w-6" />
           </div>
           <CardTitle className="text-2xl text-zinc-100">
-            ContentBank v2
+            x-bank
           </CardTitle>
           <CardDescription className="text-zinc-400">
             Sign in to continue

@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/arilbois/contentbank-v2/internal/repositories"
+	"github.com/arilbois/x-bank/internal/repositories"
 )
 
 type ArticleHandler struct {

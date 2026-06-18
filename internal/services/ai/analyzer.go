@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/arilbois/contentbank-v2/internal/models"
-	"github.com/arilbois/contentbank-v2/internal/repositories"
+	"github.com/arilbois/x-bank/internal/models"
+	"github.com/arilbois/x-bank/internal/repositories"
 )
 
 // Analyzer turns scraped articles into structured AnalysisResult records.

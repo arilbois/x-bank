@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arilbois/contentbank-v2/internal/services/scorer"
+	"github.com/arilbois/x-bank/internal/services/scorer"
 )
 
 func TestScore_ClampedToRange(t *testing.T) {
